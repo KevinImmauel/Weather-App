@@ -256,6 +256,21 @@ body {
     }
   }
 
+@media only screen and (max-width: 1200px) {
+    .input{
+        padding: 10% 0 0 0;
+    }
+    .icont{
+        transform: scale(0.8);
+        margin: 0;
+        padding: 3rem;
+    }
+    .infocont {
+        transform: scale(0.8);
+        margin: 0;
+    }
+}
+
 .button {
   align-items: center;
   appearance: none;
