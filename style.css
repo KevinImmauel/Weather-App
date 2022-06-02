@@ -82,14 +82,21 @@ body {
 }
 
 .input {
-    display: flex;
-    align-items: flex-start;
-    width: 100%;
     padding-top: 25%;
 }
 
+.inputtext {
+    display: flex;
+    align-items: flex-start;
+}
+
+.weatherloc {
+    margin: 1rem 0 0 5rem;
+    background-color: rgba(0, 0, 0, 0);
+}
+
 .cityname {
-    margin: 0 1rem 5rem 5rem;
+    margin: 0 1rem 0 5rem;
     padding: 12px;
     font-size: 1.3rem;
     border: 0;
@@ -113,7 +120,7 @@ body {
     display: flex;
     align-items: center;
     display: none;
-    margin: 2rem 5rem;
+    margin: 0 5rem;
     justify-content: center;
     color: #000;
 }
@@ -198,6 +205,15 @@ body {
     opacity: 40%;
 }
 
+.countryname {
+    font-size: 2rem;
+    margin: 1rem 0 0 5rem;
+}
+
+.longi, .latit {
+    display: none;
+}
+
 @media only screen and (max-width: 600px) {
     .mode,.units, .name {
         transform: scale(0.6);
@@ -273,7 +289,7 @@ body {
 
 .button:hover {
   color: #fff;
-  background-color: #121212;
+  background-color: #000;
   box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
 }
 
