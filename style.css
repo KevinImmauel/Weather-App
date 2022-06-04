@@ -8,7 +8,7 @@ body {
     color: #000;
     background-color: #fff;
     font-family: 'Noto Sans', sans-serif;
-    background-image: url(cool-background.svg);
+    background-image: url(img/cool-background.svg);
     background-repeat: no-repeat;
     background-size: cover;
     transition: all ease 200ms;
