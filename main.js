@@ -107,7 +107,7 @@ weatherloc.addEventListener('click', () => {
 })
 //fetching cityname weather report
 searchbtn.addEventListener("click", function() {
-    fetch('https://testapikeymask.000webhostapp.com/apikeymasker.php?lat='+ cityname.value)
+    fetch('https://testapikeymask.000webhostapp.com/apikeymasker.php?q='+ cityname.value)
         .then(response => response.json())
         .then(data => {
             var weathericon = data["weather"][0]["icon"]
