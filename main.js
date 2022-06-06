@@ -87,7 +87,7 @@ function bruhmoment(weathericon){
 }
 //fetching current location weather report
 weatherloc.addEventListener('click', () => {
-    fetch('https://api.openweathermap.org/data/2.5/weather?lat=' + latText.innerText + '&lon=' + longText.innerText + '&appid=cd2dd51ee83d165cdffc8f9c626be58d&units=metric')
+    fetch('https://testapikeymask.000webhostapp.com/apikeymasker.php?lat=' + latText.innerText + '&lon=' + longText.innerText)
         .then(response => response.json())
         .then(data => {
             var weathericon = data["weather"][0]["icon"]
@@ -107,7 +107,7 @@ weatherloc.addEventListener('click', () => {
 })
 //fetching cityname weather report
 searchbtn.addEventListener("click", function() {
-    fetch('https://api.openweathermap.org/data/2.5/weather?q='+ cityname.value +'&appid=cd2dd51ee83d165cdffc8f9c626be58d&units=metric')
+    fetch('https://testapikeymask.000webhostapp.com/apikeymasker.php?q='+ cityname.value)
         .then(response => response.json())
         .then(data => {
             var weathericon = data["weather"][0]["icon"]
