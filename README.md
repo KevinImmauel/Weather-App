@@ -1,6 +1,15 @@
-# Weather-App
-Another lame Weather Aplication<br>
-Here is the link and some screenshots<br>
-*https://kevinimmauel.github.io/Weather-App/*<br>
-![unknown](https://user-images.githubusercontent.com/83702067/171736685-9b6c0f75-945a-4883-978a-f4cedf25cdf8.png)
-![unknown](https://user-images.githubusercontent.com/83702067/171736699-cc1401e1-9105-4500-83fe-e9dfb1f31e79.png)
+# Weather-App ☁️
+**Another Lame Weather Application using OpenWeatherMap API
+Get current weather report by either typing the name of the city<br>
+or using your current location**
+## UI ✏️
+### Light Mode 😈
+![unknown](https://user-images.githubusercontent.com/83702067/172372906-87cc7afa-02a4-448a-8012-c1b4395dc813.png)<br>
+### Dark Mode 😇
+![unknown](https://user-images.githubusercontent.com/83702067/172372929-4a76579f-a777-4761-ba38-3e335e9eeb0b.png)
+### Made With ❤️
+1. HTML<br>
+2. CSS<br>
+3. JS<br>
+4. PHP<br>
+5. **Also Includes Hardwork** 🥲
